@@ -5,7 +5,7 @@ import Button from './Button'
 
 const DropDownMenu = () => {
   return (
-    <div className='flex flex-col absolute top-16 right-12 border-2 border-slate-200 w-[200px] py-2 bg-slate-100'>
+    <div className='flex flex-col absolute top-16 right-12 border-2 border-slate-200 w-[200px] py-2 bg-slate-100 rounded-2xl'>
         <ul className=" gap-4 flex flex-col">
         {NAV_LINKS.map((link) => (
           <Link
